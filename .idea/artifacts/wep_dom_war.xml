@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wep-dom:war">
+    <output-path>$PROJECT_DIR$/html-demo/wep-dom/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>wep-dom</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="wep-dom-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="wep-dom:war exploded" />
+    </root>
+  </artifact>
+</component>
